@@ -1,0 +1,144 @@
+html, body {
+    /* margin: 0px;
+    padding: 0px; */
+    background: #f9fafc;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #69696a;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.name {
+    margin: 0px 0px 5px 0px;
+    color: black;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #69696a;
+    padding: 5px 0px 5px 0px;
+}
+
+.hire {
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    color: #f9fafc;
+    border-radius: 25px;
+    height: 35px;
+    margin: 5px 0px 5px 0px;
+}
+
+
+h2 {
+    color: black;
+}
+
+.content {
+    border-left: 3px solid #69696a42;
+    padding-left: 15px;
+}
+
+.scroll {
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    color: #f9fafc;
+    border-radius: 35px;
+    height: 35px;
+}
+
+@media only screen and (min-width: 480px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu {
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+    }
+
+    .hire {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    button {
+        padding: 10px;
+        /* margin: 0px 5px; */
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        /* align-items: flex-start; */
+    }
+
+    .text {
+        width: 55%;
+    }
+
+    .circles {
+        position: relative;
+        /* float: right; */
+        width: 320px;
+        height: 280px;
+        margin: 50px;
+    }
+    
+    .pink {
+        position: absolute;
+        background: rgba(247, 136, 167, 0.6);
+        height: 240px;
+        width: 240px;
+        border-radius: 120px; 
+    }
+    
+    .orange {
+        position: absolute;
+        background: rgba(247, 193, 162, 0.7);
+        height: 160px;
+        width: 160px;
+        border-radius: 80px;
+        left:160px;
+        top: 120px;
+    }
+    
+    .purple {
+        position: absolute;
+        background: rgba(207, 130, 213, 0.6);
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        left: 200px;
+        top: 30px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .scroll {
+        width: auto;
+        /* margin: 0 auto; */
+        padding: 0px 15px;
+    }
+}
